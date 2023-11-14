@@ -1,2 +1,21 @@
-body{ font-family:sans-serif;
+body { font-family:sans-serif;
+}
+
+* {box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    background-color:#24252A;}
+
+li, a {
+    font-weight:500px;
+    font-size: 16px;
+    color:#edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 10%; 
 }
